@@ -8,8 +8,9 @@ body {
     background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
 }
 
-#content-section {
-    margin: 0 20px 100px;
+#content-section,
+#second-content {
+    margin: 0 20px 60px;
 
 }
 
@@ -114,4 +115,67 @@ p {
     font-size: 16px;
     font-weight: normal;
     margin: 0 0 30px 0px;
+}
+
+
+
+#box-title {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    margin: 0 0 20px;
+    border-radius: 25px 25px 0 0;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#box-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.btn2 {
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    color: black;
+    border-color: black;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.body-paragraph {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 60px 0px;
+}
+
+h4 {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.box-text {
+    padding: 0 15px;
 }
