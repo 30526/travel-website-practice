@@ -5,12 +5,17 @@
 }
 
 body {
-    background-image: linear-gradient(white, black);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+#content-section {
+    margin: 0 20px 100px;
+
 }
 
 #hero-section {
     background-color: bisque;
-    margin: 30px 20px 100px;
+    margin: 30px 20px 30px;
     /* padding: 50PX; */
     background-image: url("https://images.pexels.com/photos/12365567/pexels-photo-12365567.jpeg?_gl=1*95eo0o*_ga*MjQ3Njc2OTA3LjE3MzM4NDgyMDg.*_ga_8JE65Q40S6*czE3NTE2OTQ2MjkkbzYxJGcxJHQxNzUxNjk0NjY3JGoyMiRsMCRoMA..");
     background-size: cover;
@@ -21,6 +26,7 @@ body {
     /* height: 500px; */
     border-radius: 25px;
     padding: 200px 130px 250px;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 #hero-title {
@@ -49,7 +55,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 15px;
     padding: 10px 25px;
 
@@ -61,4 +67,51 @@ body {
     border: rgb(255, 255, 255) solid 2px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
     transition: all 0.3s ease-in-out;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.content-1 {
+
+    background-color: aliceblue;
+    width: 60%;
+    padding: 100px 0px 120px 60px;
+    border-radius: 25px;
+    background-image: url("https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?_gl=1*v7zhxf*_ga*MjQ3Njc2OTA3LjE3MzM4NDgyMDg.*_ga_8JE65Q40S6*czE3NTE3MDM1MjUkbzYyJGcxJHQxNzUxNzAzNjUxJGoxNiRsMCRoMA..");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-2 {
+
+    background-color: aliceblue;
+    width: 40%;
+    padding: 100px 0px 120px 40px;
+    border-radius: 25px;
+    background-image: url("https://images.pexels.com/photos/1430677/pexels-photo-1430677.jpeg?_gl=1*c6cxun*_ga*MjQ3Njc2OTA3LjE3MzM4NDgyMDg.*_ga_8JE65Q40S6*czE3NTE3MDM1MjUkbzYyJGcxJHQxNzUxNzA1MzU2JGoyNyRsMCRoMA..");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 30px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 30px 0px;
 }
