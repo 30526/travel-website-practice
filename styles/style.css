@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero-section {
+    background-color: bisque;
+    margin: 30px 20px 100px;
+    padding: 50PX;
+    background-image: url("https://images.pexels.com/photos/3996438/pexels-photo-3996438.jpeg?_gl=1*1lmccsh*_ga*MjQ3Njc2OTA3LjE3MzM4NDgyMDg.*_ga_8JE65Q40S6*czE3NTE2ODg0NDEkbzYwJGcxJHQxNzUxNjg5NjQwJGo5JGwwJGgw");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    border-radius: 25px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
