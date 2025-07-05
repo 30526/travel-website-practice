@@ -14,6 +14,10 @@ body {
 
 }
 
+.third-elements {
+    margin: 0px 20px 20px;
+}
+
 #hero-section {
     background-color: bisque;
     margin: 30px 20px 30px;
@@ -119,7 +123,7 @@ p {
 
 
 
-#box-title {
+.body-title {
     text-align: center;
 }
 
@@ -145,13 +149,15 @@ img {
 }
 
 .btn2 {
-    margin-bottom: 30px;
+
+    margin-bottom: 40px;
 }
 
-.btn:hover {
+.btn2:hover {
     color: black;
     border-color: black;
 }
+
 h2 {
     font-family: 'Arial', sans-serif;
     color: rgb(0, 0, 0);
@@ -178,4 +184,73 @@ h4 {
 
 .box-text {
     padding: 0 15px;
+}
+
+.blog-element {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    gap: 10px;
+    border-color: rgb(248, 248, 248);
+    /* padding: 30px 0px; */
+    /* height: 300px; */
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog-image {
+    border-radius: 30px;
+    width: 400px;
+    margin-bottom: 0px;
+
+
+}
+
+#blog-image1 {
+    padding: 40px 30px;
+}
+
+.blog-text {
+    padding: 40px 200px 40px 0px;
+}
+
+h5 {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px 20px;
+}
+
+.price {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+
+.price:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-paragraph {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: normal;
+    margin: 40px 0px 30px;
+}
+
+.blog,
+.price {
+    margin-bottom: 0px;
 }
