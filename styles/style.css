@@ -24,7 +24,7 @@ body {
 
 #hero-section {
     background-color: bisque;
-    margin: 30px 20px 30px;
+    margin: 0px 20px 30px;
     /* padding: 50PX; */
     background-image: url("https://images.pexels.com/photos/12365567/pexels-photo-12365567.jpeg?_gl=1*95eo0o*_ga*MjQ3Njc2OTA3LjE3MzM4NDgyMDg.*_ga_8JE65Q40S6*czE3NTE2OTQ2MjkkbzYxJGcxJHQxNzUxNjk0NjY3JGoyMiRsMCRoMA..");
     background-size: cover;
@@ -33,7 +33,7 @@ body {
     text-align: center;
     background-repeat: no-repeat;
     /* height: 500px; */
-    border-radius: 25px;
+    border-radius: 0px 0px 25px 25px;
     padding: 200px 130px 250px;
     box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
 }
@@ -317,4 +317,83 @@ h5 {
     margin: 0;
     text-align: left;
     margin-top: 10px;
+}
+
+/* navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px 30px;
+    margin: 0px 20px 0px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#logo {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: #242424;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 40px;
+    margin-top: 22px;
+    font-size: 18px;
+    color: #242424;
+    text-decoration: none;
+
+}
+
+#logo-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+
+}
+
+a:hover {
+    color: #b6b6b6;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+#search-box {
+    width: 400px;
+    height: 25px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#search-button {
+    height: 38px;
+    width: 80px;
+    /* padding: px; */
+    text-align: center;
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+
+}
+#navtext {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #242424;
+    margin: 22px 0px 0px 0px;
 }
